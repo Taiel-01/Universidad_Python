@@ -1,0 +1,53 @@
+WARNING:root:mensaje a nivel warning
+INFO:root:mensaje a nivel info
+DEBUG:root:mensaje a nivel debug
+ERROR:root:Ocurrio un error en la base de datos
+DEBUG:root:Se realizo la conexion con exito
+2021-05-03 18:28:08,099
+2021-05-03 18:28:08,099
+2021-05-03 18:28:08,100
+2021-05-03 18:28:08,100
+2021-05-03 18:28:08,101
+2021-05-03 18:29:37,559: WARNING 
+2021-05-03 18:29:37,559: INFO 
+2021-05-03 18:29:37,559: DEBUG 
+2021-05-03 18:29:37,560: ERROR 
+2021-05-03 18:29:37,560: DEBUG 
+2021-05-03 18:30:38,482: WARNING [logger_base.py]
+2021-05-03 18:30:38,483: INFO [logger_base.py]
+2021-05-03 18:30:38,483: DEBUG [logger_base.py]
+2021-05-03 18:30:38,484: ERROR [logger_base.py]
+2021-05-03 18:30:38,484: DEBUG [logger_base.py]
+2021-05-03 18:31:37,416: WARNING [logger_base.py:12]
+2021-05-03 18:31:37,417: INFO [logger_base.py:13]
+2021-05-03 18:31:37,417: DEBUG [logger_base.py:14]
+2021-05-03 18:31:37,417: ERROR [logger_base.py:15]
+2021-05-03 18:31:37,417: DEBUG [logger_base.py:16]
+2021-05-03 18:33:44,534: WARNING [logger_base.py:12] mensaje a nivel warning
+2021-05-03 18:33:44,535: INFO [logger_base.py:13] mensaje a nivel info
+2021-05-03 18:33:44,535: DEBUG [logger_base.py:14] mensaje a nivel debug
+2021-05-03 18:33:44,535: ERROR [logger_base.py:15] Ocurrio un error en la base de datos
+2021-05-03 18:33:44,536: DEBUG [logger_base.py:16] Se realizo la conexion con exito
+06:35:36 PM: WARNING [logger_base.py:13] mensaje a nivel warning
+06:35:36 PM: INFO [logger_base.py:14] mensaje a nivel info
+06:35:36 PM: DEBUG [logger_base.py:15] mensaje a nivel debug
+06:35:36 PM: ERROR [logger_base.py:16] Ocurrio un error en la base de datos
+06:35:36 PM: DEBUG [logger_base.py:17] Se realizo la conexion con exito
+06:37:47 PM: WARNING [logger_base.py:15] mensaje a nivel warning
+06:37:47 PM: INFO [logger_base.py:16] mensaje a nivel info
+06:37:47 PM: DEBUG [logger_base.py:17] mensaje a nivel debug
+06:37:47 PM: ERROR [logger_base.py:18] Ocurrio un error en la base de datos
+06:37:47 PM: DEBUG [logger_base.py:19] Se realizo la conexion con exito
+06:46:38 PM: INFO [conexion.py:3] desde conexion
+06:47:15 PM: INFO [conexion.py:3] desde conexion
+07:19:10 PM: DEBUG [conexion.py:23] Conexion exitosa: <connection object at 0x00000225C4521E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:19:10 PM: INFO [conexion.py:30] <connection object at 0x00000225C4521E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:24:28 PM: DEBUG [conexion.py:23] Conexion exitosa: <connection object at 0x00000240B9C27E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:24:28 PM: INFO [conexion.py:42] <connection object at 0x00000240B9C27E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:24:40 PM: DEBUG [conexion.py:23] Conexion exitosa: <connection object at 0x000001B007417E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:24:40 PM: DEBUG [conexion.py:34] Se abrio el cursor con exito: <cursor object at 0x000001B008F43580; closed: 0>
+07:24:40 PM: INFO [conexion.py:42] <cursor object at 0x000001B008F43580; closed: 0>
+07:29:14 PM: DEBUG [conexion.py:23] Conexion exitosa: <connection object at 0x000001E4901CCE10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+07:29:14 PM: DEBUG [conexion.py:34] Se abrio el cursor con exito: <cursor object at 0x000001E491D36580; closed: 0>
+07:29:14 PM: INFO [conexion.py:58] <cursor object at 0x000001E491D36580; closed: 0>
+07:29:14 PM: DEBUG [conexion.py:54] Se han cerrado los objetos de conexion y cursor
